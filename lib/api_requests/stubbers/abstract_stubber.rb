@@ -38,7 +38,7 @@ class AbstractStubber
 
     raise ArgumentError,
           "You must provide a valid #{method} using "\
-          ".with(#{method}: validalid_#{method})"
+          ".with(#{method}: valid_#{method})"
   end
 
   private
